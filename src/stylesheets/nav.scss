@@ -1,0 +1,11 @@
+$primary-color: #ffff;
+.nav{
+    position: fixed;
+    left: 0;
+    background-color: $primary-color;
+    bottom: 0;
+    opacity: 1;
+    width: 20%;
+    top: 0;
+    z-index: 15;
+}
