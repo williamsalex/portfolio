@@ -1,12 +1,17 @@
 import React from 'react'
-import '../stylesheets/nav.scss'
+import '../stylesheets/homepage.scss'
 
 export default function Homepage() {
     return(
         <div className = 'nav'>
-            <h1 className = 'title'>Alexander Williams</h1>
-            <h2 className = 'sub'>Software Engineer</h2>
-            <p className = 'list'>python | javascript | ruby | react | rails | haskell</p>
+            <h4 className = 'item'> HOME </h4>
+            <h4 className = 'divider'>/</h4>
+            <h4 className = 'item'> RESUME </h4>
+            <h4 className = 'divider'>/</h4>
+            <h4 className = 'item'> PROJECTS </h4>
+            <h4 className = 'divider'>/</h4>
+            <h4 className = 'item'> ABOUT </h4>
+            <h4 className = 'divider'>/</h4>
         </div>
     )
 }

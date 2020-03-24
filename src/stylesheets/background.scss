@@ -1,8 +1,19 @@
+// .border{
+//     background-color: papayawhip;
+//     top: 0;
+//     bottom: 0;
+//     right: 0;
+//     left: 0;
+//     z-index: 6;
+// }
+
 .main{
-    background-image: url('/background-image.jpg');
+    // background-image: url('/background-image.jpg');
     background-position: center;
     background-size: cover;
     position: absolute;
+    // background-color: gray;
+    background-color: papayawhip;
     top: 0;
     right: 0;
     bottom: 0;
