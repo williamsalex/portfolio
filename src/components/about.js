@@ -2,16 +2,11 @@ import React from 'react'
 import '../stylesheets/homepage.scss'
 
 
-export default function Homepage() {
+export default function About() {
     return(
         <div className = 'text'>
-            <h2 className = 'title'>ALEXANDER WILLIAMS</h2>
-            <h3 className = 'title'>SOFTWARE ENGINEER</h3>
-            <h4 className = 'title'>PYTHON</h4>
-            <h4 className = 'title'>JAVASCRIPT</h4>
-            <h4 className = 'title'>RUBY</h4>
-            <h4 className = 'title'>REACT</h4>
-            <h4 className = 'title'>RAILS</h4>
+            <h3>MY NAME IS ALEXANDER WILLIAMS</h3>
+            <h4>CALL ME ALEX.</h4>
         </div>
     )
 }

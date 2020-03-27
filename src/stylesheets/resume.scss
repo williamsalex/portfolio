@@ -1,0 +1,38 @@
+$primary-color: #842835;
+$font: 'Courier New', Courier, monospace;
+
+.text{
+    font-family: $font;
+    color: $primary-color;
+    position: fixed;
+    left: 10%;
+    top: 10%;
+}
+
+.nav{
+    position: fixed;
+    right: 5%;
+    // background-color: $primary-color;
+    z-index: 15;
+}
+
+.resume{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider{
+    font-family: $font;
+    color: $primary-color;
+    display: inline;
+    font-weight: 400;
+}
+
+.item{
+    font-family: $font;
+    color: $primary-color;
+    display: inline;
+    font-weight: 400;
+}
+.item:hover {font-weight: 900; cursor: pointer; position: relative; bottom: -2px; transition-duration: 500ms;}
