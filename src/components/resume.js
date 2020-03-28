@@ -1,11 +1,17 @@
 import React from 'react'
 import '../stylesheets/resume.scss'
-import resume from './resume.PNG'
+import resume from '../resume.PNG'
 
-export default function Homepage() {
+export default function Resume() {
     return(
-        <div className = 'resume'>
-            <img src={resume}></img>
+        <div>
+            <div>
+                <br/>
+                <br/>
+            </div>
+            <div className = 'resume'>
+                <img src={resume} alt = 'resume'></img>
+            </div>
         </div>
     )
 }

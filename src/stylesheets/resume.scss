@@ -20,6 +20,8 @@ $font: 'Courier New', Courier, monospace;
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 100%;
+    height: auto;
 }
 
 .divider{

@@ -1,8 +1,8 @@
 import React from 'react'
-import '../stylesheets/homepage.scss'
+import '../stylesheets/projects.scss'
 
 
-export default function Homepage() {
+export default function Projects() {
     return(
         <div className = 'text'>
         </div>
