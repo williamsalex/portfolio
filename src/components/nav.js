@@ -13,6 +13,8 @@ export default function Homepage() {
             <h4 className = 'divider'>/</h4>
             <Link to = '/about' className = 'item' style = {{textDecoration: 'none'}} > ABOUT </Link>
             <h4 className = 'divider'>/</h4>
+            <Link to = '/contact' className = 'item' style = {{textDecoration: 'none'}} > CONTACT </Link>
+            <h4 className = 'divider'>/</h4>
         </div>
     )
 }

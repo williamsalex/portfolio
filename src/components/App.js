@@ -5,6 +5,7 @@ import Homepage from './homepage'
 import Resume from './resume'
 import Projects from './projects'
 import About from './about'
+import Contact from './contact'
 import { Switch, Route } from 'react-router-dom'
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
           <Route path = '/resume' component = {Resume}/>
           <Route path = '/projects' component = {Projects}/>
           <Route path = '/about' component = {About}/>
+          <Route path = '/contact' component = {Contact}/>
           <Route component = {Error} />
         </Switch>
       </div>
