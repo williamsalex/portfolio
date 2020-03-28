@@ -4,7 +4,7 @@ $font: 'Courier New', Courier, monospace;
 .text{
     font-family: $font;
     color: $primary-color;
-    position: fixed;
+    position: relative;
     left: 10%;
     top: 10%;
 }
@@ -12,7 +12,6 @@ $font: 'Courier New', Courier, monospace;
 .nav{
     position: fixed;
     right: 5%;
-    // background-color: $primary-color;
     z-index: 15;
 }
 

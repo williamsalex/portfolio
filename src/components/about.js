@@ -5,7 +5,8 @@ import '../stylesheets/homepage.scss'
 export default function About() {
     return(
         <div className = 'text'>
-        
+            <p>FROM BROOKLYN, NY</p>
+            <p>I am a software developer </p>
         </div>
     )
 }
