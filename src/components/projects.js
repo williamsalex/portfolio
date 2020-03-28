@@ -1,5 +1,4 @@
 import React from 'react'
-import '../stylesheets/projects.scss'
 
 
 export default function Projects() {
@@ -30,11 +29,12 @@ export default function Projects() {
             <p>DETERMINES SAFE ROUTES OF EGRESS AND UPLOADS DATA ABOUT FIRE PROGRESSION TO GOOGLE CLOUD FOR REAL-TIME UPDATES TO FIRST RESPONDERS AND LATER ANALYSIS.</p> 
             <br/>
             <h3>RESEARCH ANALYSIS OF THE BOBADILLA CONJECTURE</h3>
-            <h4>FEBRUARY 22, 2020</h4>
+            <h4>FEBRUARY 20, 2020</h4>
             <hr/>
             <p>PYTHON | SHELL | SLURM | SAGEMATH | SINGULAR</p>
             <a href = 'https://github.com/williamsalex/Bobadilla-Conjecture' style = {{textDecoration: 'none'}}>GITHUB </a>
-            <p>ANALYSIS OF JAVIER FERNANDEZ DE BOBADILLA'S CONJECTURE AND THE BETA INVARIANT AS PROPOSED BY DAVID MASSEY.</p>
+            <p>COMPUTATIONAL ANALYSIS OF DR. JAVIER FERNANDEZ DE BOBADILLA'S CONJECTURE AND THE BETA INVARIANT AS PROPOSED BY DR. DAVID MASSEY.</p>
+            <br/>
         </div>
     )
 }

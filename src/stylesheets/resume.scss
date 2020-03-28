@@ -4,9 +4,10 @@ $font: 'Courier New', Courier, monospace;
 .text{
     font-family: $font;
     color: $primary-color;
-    position: fixed;
+    position: relative;
     left: 10%;
     top: 10%;
+    max-width: 80%;
 }
 
 .nav{
