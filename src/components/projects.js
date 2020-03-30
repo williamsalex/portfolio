@@ -4,6 +4,7 @@ import React from 'react'
 export default function Projects() {
     return(
         <div className = 'text'>
+            <h2>SELECTED PROJECTS</h2>
             <br/>
             <h3> CRUZE </h3>
             <h4>MARCH 6 - 8, 2020</h4>
@@ -26,8 +27,8 @@ export default function Projects() {
             <p> PYTHON | GCP | TKINTER | MATPLOTLIB </p>
             <a href = 'https://github.com/MisterEddie/DirExit' style = {{textDecoration: 'none'}}>GITHUB</a><a href = 'https://devpost.com/software/direxit' style = {{textDecoration: 'none'}}>  DEVPOST  </a><a href = 'https://www.youtube.com/watch?v=OaRNdNpg6uM&feature=emb_title' style = {{textDecoration: 'none'}}>  VIDEO</a>
             <p> 1<sup>ST</sup> PLACE GRAND PRIZE. LOCKHEED MARTIN: BEST HACK FOR DATA ANALYSIS & VISUALIZATION @ <a href = 'https://dragonhacks.org/' style = {{textDecoration: 'none'}}>DRAGONHACKS 2020</a></p>
-            <p> RASPBERRY-PI BASED MODERN FIRE SAFETY SENSOR. </p>
-            <p>DETERMINES SAFE ROUTES OF EGRESS AND UPLOADS DATA ABOUT FIRE PROGRESSION TO GOOGLE CLOUD FOR REAL-TIME UPDATES TO FIRST RESPONDERS AND LATER ANALYSIS.</p> 
+            <p> LOW-COST RASPBERRY-PI BASED MODERN FIRE SAFETY SENSOR, DETERMINES SAFE ROUTES OF EGRESS FROM BUILDING AND DYNAMICALLY DIRECTS EVACUEES.</p>
+            <p>UPLOADS DATA ABOUT FIRE PROGRESSION TO GOOGLE CLOUD FOR REAL-TIME UPDATES TO FIRST RESPONDERS AND FOR LATER ANALYSIS.</p> 
             <br/>
             <h3>RESEARCH ANALYSIS OF THE BOBADILLA CONJECTURE</h3>
             <h4>FEBRUARY 15, 2019 - FEBRUARY 20, 2020</h4>

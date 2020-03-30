@@ -8,6 +8,7 @@ $font: 'Courier New', Courier, monospace;
     left: 10%;
     top: 5vh;
     max-width: 80%;
+    min-height: 100%;
 }
 
 .nav{
@@ -22,6 +23,10 @@ $font: 'Courier New', Courier, monospace;
     justify-content: center;
     max-width: 100%;
     height: auto;
+}
+
+body{
+    background-color: papayawhip;
 }
 
 .divider{
@@ -39,15 +44,10 @@ $font: 'Courier New', Courier, monospace;
 }
 
 .main{
-    background-position: center;
-    background-size: cover;
     position: absolute;
-    background-color: papayawhip;
     top: 0;
     right: 0;
     left: 0;
-    min-height: 100%;
-    overflow-x: hidden;
 }
 
 .item:hover {font-weight: 900; cursor: pointer; position: relative; bottom: -2px; transition-duration: 500ms;}
