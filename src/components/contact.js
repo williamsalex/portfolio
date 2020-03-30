@@ -1,10 +1,10 @@
 import React from 'react'
-import '../stylesheets/homepage.scss'
 
 
 export default function Contact() {
     return(
         <div className = 'text'>
+            <br/>
             <h3>Contact Me</h3>
             <a href = "mailto:williams_alex@pm.me">Email</a>
             <br/>

@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import '../stylesheets/background.scss'
+import React, { Component } from 'react'
+import '../styles.scss'
 import Navbar from './nav'
 import Homepage from './homepage'
 import Resume from './resume'

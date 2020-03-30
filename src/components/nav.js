@@ -1,5 +1,4 @@
 import React from 'react'
-import '../stylesheets/homepage.scss'
 import { Link } from 'react-router-dom'
 
 export default function Homepage() {

@@ -1,10 +1,10 @@
 import React from 'react'
-import '../stylesheets/homepage.scss'
 
 
 export default function Homepage() {
     return(
         <div className = 'text'>
+            <br/>
             <h2 className = 'title'>ALEXANDER WILLIAMS</h2>
             <h3 className = 'title'>SOFTWARE ENGINEER</h3>
             <h4 className = 'title'>PYTHON</h4>

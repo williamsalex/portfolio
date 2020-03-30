@@ -1,5 +1,4 @@
 import React from 'react'
-import '../stylesheets/resume.scss'
 import resume from '../resume.PNG'
 
 export default function Resume() {
