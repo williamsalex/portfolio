@@ -1,0 +1,5 @@
+/home /
+/resume /resume
+/projects /projects
+/about /about
+/contact /contact
